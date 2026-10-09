@@ -30,7 +30,7 @@ Sangat cocok digunakan untuk fitur *Autocomplete/Search* di form pendaftaran apl
 ## ?? Panduan API
 
 Silakan kunjungi halaman dokumentasi API untuk melihat penjelasan *Endpoint*, parameter, dan format JSON secara detail:
-?? **[Lihat Dokumentasi API Lengkap](/docs)**
+?? **[Lihat Dokumentasi API Lengkap](https://api-pendidikan.vercel.app/docs)**
 
 ### Endpoint Tersedia:
 1. `GET /api/sekolah?q={kata_kunci}` (Pencarian Sekolah)
@@ -68,3 +68,4 @@ Buka `http://localhost:3000` di browser untuk melihat UI Explorer dan Dokumentas
 
 > **Credit & Disclaimer:** 
 > Proyek ini dikembangkan oleh [Azmi.dev]. Segala data yang disajikan merupakan hasil agregasi dari *platform* resmi kementerian (Kemendikdasmen & SNPMB BPPP) dan ditujukan murni sebagai sarana edukasi (Open Source).
+
