@@ -1,69 +1,343 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useState, useEffect } from 'react';
+
+export default function Page() {
+  const [query, setQuery] = useState("");
+  const [activeTab, setActiveTab] = useState("sekolah");
+  const [results, setResults] = useState<any[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [selectedItem, setSelectedItem] = useState<any>(null);
+
+  useEffect(() => {
+    const delayDebounceFn = setTimeout(() => {
+      if (query.trim() === "") {
+        setResults([]);
+        return;
+      }
+      
+      setLoading(true);
+      fetch(`/api/${activeTab}?q=${encodeURIComponent(query)}`)
+        .then(res => res.json())
+        .then(data => {
+          setResults(data.data || []);
+          setLoading(false);
+        })
+        .catch(err => {
+          console.error(err);
+          setLoading(false);
+        });
+    }, 500);
+
+    return () => clearTimeout(delayDebounceFn);
+  }, [query, activeTab]);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col font-sans selection:bg-blue-100 selection:text-blue-900">
+      
+      {/* Header */}
+      <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-center justify-between py-4">
+            
+            <div className="flex items-center mb-4 md:mb-0">
+              <div className="text-xl font-bold tracking-tight text-gray-900">
+                Pusat Data Pendidikan
+              </div>
+              <a href="/docs" className="ml-4 px-3 py-1 bg-blue-50 border border-blue-100 text-blue-600 rounded-full text-xs font-semibold hover:bg-blue-100 transition-colors">API Docs &rarr;</a>
+            </div>
+            
+            <div className="mt-2 md:mt-0 flex-1 md:ml-8 md:max-w-lg relative">
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <svg className="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <input
+                type="text"
+                className="block w-full pl-10 pr-10 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm bg-gray-50 focus:bg-white transition-colors"
+                placeholder={activeTab === "sekolah" ? "Cari sekolah (Cth: SMAN 1 Banjarnegara)..." : "Cari kampus (Cth: Universitas Indonesia)..."}
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+              />
+              {loading && (
+                <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+                  <svg className="animate-spin h-4 w-4 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+                </div>
+              )}
+            </div>
+          </div>
+          
+          {/* Tabs */}
+          <div className="flex space-x-8 mt-2 overflow-x-auto hide-scrollbar">
+            <button
+              onClick={() => { setActiveTab("sekolah"); setQuery(""); }}
+              className={`pb-3 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
+                activeTab === "sekolah" ? "border-blue-500 text-blue-600" : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+              }`}
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              Sekolah Nasional
+            </button>
+            <button
+              onClick={() => { setActiveTab("kampus"); setQuery(""); }}
+              className={`pb-3 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
+                activeTab === "kampus" ? "border-blue-500 text-blue-600" : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+              }`}
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              Perguruan Tinggi
+            </button>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+        
+        {/* Empty State */}
+        {query.trim() === "" && (
+          <div className="text-center py-20 bg-white rounded-lg border border-gray-200 border-dashed">
+            <svg className="mx-auto h-12 w-12 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <h3 className="mt-2 text-sm font-medium text-gray-900">Mulai Pencarian</h3>
+            <p className="mt-1 text-sm text-gray-500">Ketik nama institusi atau daerah di kolom pencarian di atas.</p>
+          </div>
+        )}
+
+        {/* No Results */}
+        {query.trim() !== "" && !loading && results.length === 0 && (
+          <div className="text-center py-20 bg-white rounded-lg border border-gray-200">
+            <p className="text-sm text-gray-500">Tidak menemukan hasil untuk <span className="font-semibold text-gray-900">"{query}"</span>.</p>
+          </div>
+        )}
+
+        {/* Data Table */}
+        {results.length > 0 && (
+          <div className="bg-white shadow-sm ring-1 ring-black ring-opacity-5 rounded-lg overflow-x-auto">
+            <table className="min-w-full divide-y divide-gray-200">
+              <thead className="bg-gray-50">
+                <tr>
+                  {activeTab === "sekolah" ? (
+                    <>
+                      <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider sm:pl-6">Identitas Sekolah</th>
+                      <th scope="col" className="px-3 py-3.5 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider">Status</th>
+                      <th scope="col" className="hidden md:table-cell px-3 py-3.5 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider">Alamat & Lokasi</th>
+                    </>
+                  ) : (
+                    <>
+                      <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider sm:pl-6">Identitas Kampus</th>
+                      <th scope="col" className="hidden md:table-cell px-3 py-3.5 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider">Daftar Program Studi</th>
+                    </>
+                  )}
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {results.map((item, idx) => (
+                  <tr 
+                    key={idx} 
+                    onClick={() => setSelectedItem(item)}
+                    className="hover:bg-gray-50 transition-colors cursor-pointer"
+                  >
+                    {activeTab === "sekolah" ? (
+                      <>
+                        <td className="py-4 pl-4 pr-3 text-sm sm:pl-6 align-top">
+                          <div className="font-medium text-gray-900">{item.nama}</div>
+                          <div className="text-gray-500 mt-1">NPSN: {item.npsn}</div>
+                          <div className="text-gray-500">{item.bentuk_pendidikan}</div>
+                          <div className="md:hidden mt-2 text-xs text-gray-400">Klik untuk melihat detail lokasi & alamat</div>
+                        </td>
+                        <td className="px-3 py-4 text-sm text-gray-500 align-top">
+                          <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${item.status_sekolah === 'NEGERI' ? 'bg-green-100 text-green-800' : 'bg-amber-100 text-amber-800'}`}>
+                            {item.status_sekolah}
+                          </span>
+                          <div className="mt-2 text-gray-600">
+                            Akred: <span className="font-semibold text-gray-900">{item.akreditasi || '-'}</span>
+                          </div>
+                        </td>
+                        <td className="hidden md:table-cell px-3 py-4 text-sm text-gray-500 align-top max-w-md">
+                          <div className="text-gray-900">{item.alamat_jalan || '-'}</div>
+                          <div className="mt-1 text-gray-500">
+                            Kec. {item.kecamatan}, {item.kabupaten}
+                          </div>
+                          <div className="text-gray-500">{item.provinsi}</div>
+                        </td>
+                      </>
+                    ) : (
+                      <>
+                        <td className="py-4 pl-4 pr-3 text-sm sm:pl-6 align-top w-full md:w-1/3">
+                          <div className="font-medium text-gray-900">{item.nama_kampus}</div>
+                          <div className="text-gray-500 mt-1 font-mono text-xs">Kode: {item.kode_kampus}</div>
+                          <div className="md:hidden mt-2 text-xs text-blue-500">Klik untuk melihat {item.prodi?.length || 0} program studi</div>
+                        </td>
+                        <td className="hidden md:table-cell px-3 py-4 text-sm text-gray-500 align-top">
+                          <div className="flex flex-wrap gap-2">
+                            {item.prodi?.slice(0, 8).map((p: any, i: number) => (
+                              <span key={i} className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-600 border border-gray-200">
+                                {p.nama} ({p.jenjang})
+                              </span>
+                            ))}
+                            {item.prodi?.length > 8 && (
+                              <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-50 text-gray-500 border border-gray-200">
+                                +{item.prodi.length - 8} prodi lainnya
+                              </span>
+                            )}
+                            {(!item.prodi || item.prodi.length === 0) && (
+                              <span className="text-gray-400 italic">Data program studi tidak tersedia</span>
+                            )}
+                          </div>
+                        </td>
+                      </>
+                    )}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
       </main>
+
+      {/* Modal Detail */}
+      {selectedItem && (
+        <div className="fixed inset-0 z-50 overflow-y-auto">
+          <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:p-0">
+            <div className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75" onClick={() => setSelectedItem(null)} />
+            
+            <div className="relative inline-block w-full max-w-2xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+              
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="text-xl font-bold leading-6 text-gray-900">
+                    {activeTab === 'sekolah' ? selectedItem.nama : selectedItem.nama_kampus}
+                  </h3>
+                  <p className="mt-1 text-sm text-gray-500 font-mono">
+                    {activeTab === 'sekolah' ? `NPSN: ${selectedItem.npsn}` : `KODE PT: ${selectedItem.kode_kampus}`}
+                  </p>
+                </div>
+                <button
+                  onClick={() => setSelectedItem(null)}
+                  className="text-gray-400 hover:text-gray-500 focus:outline-none bg-gray-100 rounded-full p-1"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+              </div>
+
+              <div className="mt-6">
+                {activeTab === 'sekolah' ? (
+                  <div className="space-y-6">
+                    {/* Badge Info Sekolah */}
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">{selectedItem.bentuk_pendidikan}</span>
+                      <span className={`px-3 py-1 rounded-full text-sm font-medium ${selectedItem.status_sekolah === 'NEGERI' ? 'bg-green-100 text-green-800' : 'bg-amber-100 text-amber-800'}`}>
+                        {selectedItem.status_sekolah}
+                      </span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm font-medium">Akreditasi {selectedItem.akreditasi || '-'}</span>
+                    </div>
+
+                    {/* Alamat Sekolah */}
+                    <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
+                      <h4 className="text-sm font-semibold text-gray-900 mb-2">Informasi Lokasi</h4>
+                      <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4">
+                        <div>
+                          <dt className="text-xs text-gray-500 uppercase">Jalan</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.alamat_jalan || '-'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-xs text-gray-500 uppercase">Dusun / RT RW</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.nama_dusun || '-'} {selectedItem.rt ? `(RT ${selectedItem.rt}/RW ${selectedItem.rw})` : ''}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-xs text-gray-500 uppercase">Kecamatan</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.kecamatan || '-'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-xs text-gray-500 uppercase">Kabupaten/Kota</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.kabupaten || '-'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-xs text-gray-500 uppercase">Provinsi</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.provinsi || '-'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-xs text-gray-500 uppercase">Kode Pos</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.kode_pos || '-'}</dd>
+                        </div>
+                      </dl>
+                    </div>
+
+                    {selectedItem.path_file && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-gray-900 mb-2">Foto Sekolah</h4>
+                        <img src={selectedItem.path_file} alt="Foto Sekolah" className="w-full h-auto max-h-64 object-cover rounded-lg border border-gray-200" />
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <div className="space-y-6">
+                    {/* Badge Info Kampus */}
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Perguruan Tinggi Negeri (PTN)</span>
+                      <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Jalur SNBT</span>
+                    </div>
+
+                    {/* Info Alamat Kampus (Baru dari Sync) */}
+                    <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
+                      <h4 className="text-sm font-semibold text-gray-900 mb-2">Informasi Kampus</h4>
+                      <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4">
+                        <div className="sm:col-span-2">
+                          <dt className="text-xs text-gray-500 uppercase">Jalan</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.alamat_jalan || '-'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-xs text-gray-500 uppercase">Wilayah</dt>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.kabupaten || '-'}, {selectedItem.provinsi || '-'}</dd>
+                        </div>
+                        {selectedItem.website && (
+                          <div>
+                            <dt className="text-xs text-gray-500 uppercase">Website</dt>
+                            <dd className="text-sm font-medium text-blue-600 mt-1"><a href={selectedItem.website.startsWith('http') ? selectedItem.website : `https://${selectedItem.website}`} target="_blank" rel="noreferrer">{selectedItem.website}</a></dd>
+                          </div>
+                        )}
+                      </dl>
+                    </div>
+
+                    {/* Prodi Kampus */}
+                    <div>
+                      <h4 className="text-sm font-semibold text-gray-900 mb-2">Daftar Program Studi ({selectedItem.prodi?.length || 0})</h4>
+                      <div className="max-h-60 overflow-y-auto border border-gray-100 rounded-lg bg-gray-50 p-2">
+                        {selectedItem.prodi && selectedItem.prodi.length > 0 ? (
+                          <div className="flex flex-wrap gap-2">
+                            {selectedItem.prodi.map((p: any, i: number) => (
+                              <span key={i} className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-white text-gray-700 border border-gray-200 shadow-sm">
+                                {p.nama} ({p.jenjang}) {p.daya_tampung_snbt ? `- Kuota SNBT: ${p.daya_tampung_snbt}` : ""}
+                              </span>
+                            ))}
+                          </div>
+                        ) : (
+                          <p className="text-sm text-gray-500 p-2">Data program studi tidak tersedia.</p>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+              
+              <div className="mt-6 pt-4 border-t border-gray-100 flex justify-end">
+                <button
+                  type="button"
+                  className="inline-flex justify-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 focus:outline-none"
+                  onClick={() => setSelectedItem(null)}
+                >
+                  Tutup
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      )}
+
+      <footer className="text-center py-6 text-sm text-gray-500 mt-auto border-t border-gray-100">made by Azmi.dev</footer>
     </div>
   );
 }
+
