@@ -89,7 +89,7 @@ export async function GET(request: Request) {
     qLower = qLower.split(long).join(short);
   }
   
-    let query = supabase.from('sekolah').select('*', { count: 'exact' });
+    let query = supabase.from('sekolah').select('*');
   
   // Apply direct filters if provided
   if (provinsiFilter) query = query.ilike('provinsi', `%${provinsiFilter}%`);
@@ -116,9 +116,10 @@ export async function GET(request: Request) {
     query = query.or(orString);
   });
   
-  const { data, error, count } = await query;
+  const { data, error } = await query; const count = null;
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json({ data, meta: { page, limit, total: count } });
 }
+
 
 

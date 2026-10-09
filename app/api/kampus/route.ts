@@ -92,7 +92,7 @@ export async function GET(request: Request) {
     q = aliasSukuKata[lowerQ];
   }
   
-    let query = supabase.from('kampus').select('*', { count: 'exact' });
+    let query = supabase.from('kampus').select('*');
   
   // Apply direct filters if provided
   if (provinsiFilter) query = query.ilike('provinsi', `%${provinsiFilter}%`);
@@ -116,10 +116,11 @@ export async function GET(request: Request) {
     });
   }
   
-  const { data, error, count } = await query;
+  const { data, error } = await query; const count = null;
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json({ data, meta: { page, limit, total: count } });
 }
+
 
 
 
