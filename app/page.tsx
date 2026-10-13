@@ -9,6 +9,20 @@ export default function Page() {
   const [loading, setLoading] = useState(false);
   const [selectedItem, setSelectedItem] = useState<any>(null);
 
+    const renderText = (val: any) => {
+    if (typeof val === 'string') return val;
+    if (typeof val === 'number') return String(val);
+    if (Array.isArray(val) && val.length > 0) {
+      const item = val[0];
+      if (typeof item === 'string') return item;
+      return item?.nama_kota || item?.nama_prov1 || item?.nama || '-';
+    }
+    if (typeof val === 'object' && val !== null) {
+      return val.nama_kota || val.nama_prov1 || val.nama || '-';
+    }
+    return '-';
+  };
+
   const handleCariKampusProdi = (prodiName: string) => {
     setSelectedItem(null);
     setActiveTab("kampus");
@@ -377,7 +391,7 @@ export default function Page() {
                         </div>
                         <div>
                           <dt className="text-xs text-gray-500 uppercase">Wilayah</dt>
-                          <dd className="text-sm font-medium text-gray-900 mt-1">{selectedItem.kabupaten || '-'}, {selectedItem.provinsi || '-'}</dd>
+                          <dd className="text-sm font-medium text-gray-900 mt-1">{renderText(selectedItem.kabupaten)}, {renderText(selectedItem.provinsi)}</dd>
                         </div>
                         {selectedItem.website && (
                           <div>

@@ -2,18 +2,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SYIAH KUALA",
-    "provinsi": [
-      {
-        "id_ptn": 111,
-        "kode_prov1": "060000",
-        "nama_prov1": "Aceh",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Banda Aceh"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Aceh",
+    "kabupaten": "Kota Banda Aceh",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -423,18 +413,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS MALIKUSSALEH",
-    "provinsi": [
-      {
-        "id_ptn": 112,
-        "kode_prov1": "060000",
-        "nama_prov1": "Aceh",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Aceh Utara"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Aceh",
+    "kabupaten": "Kabupaten Aceh Utara",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -639,18 +619,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS TEUKU UMAR",
-    "provinsi": [
-      {
-        "id_ptn": 113,
-        "kode_prov1": "060000",
-        "nama_prov1": "Aceh",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Aceh Barat"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Aceh",
+    "kabupaten": "Kabupaten Aceh Barat",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -795,18 +765,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SAMUDRA",
-    "provinsi": [
-      {
-        "id_ptn": 114,
-        "kode_prov1": "060000",
-        "nama_prov1": "Aceh",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Langsa"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Aceh",
+    "kabupaten": "Kota Langsa",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -986,18 +946,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "ISBI ACEH",
-    "provinsi": [
-      {
-        "id_ptn": 115,
-        "kode_prov1": "060000",
-        "nama_prov1": "Aceh",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Aceh Besar"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Aceh",
+    "kabupaten": "Kabupaten Aceh Besar",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -1062,18 +1012,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN AR-RANIRY",
-    "provinsi": [
-      {
-        "id_ptn": 116,
-        "kode_prov1": "060000",
-        "nama_prov1": "Aceh",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Banda Aceh"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Aceh",
+    "kabupaten": "Kota Banda Aceh",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -1163,18 +1103,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SUMATERA UTARA",
-    "provinsi": [
-      {
-        "id_ptn": 121,
-        "kode_prov1": "070000",
-        "nama_prov1": "Sumatera Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Medan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Utara",
+    "kabupaten": "Kota Medan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -1514,18 +1444,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI MEDAN",
-    "provinsi": [
-      {
-        "id_ptn": 122,
-        "kode_prov1": "070000",
-        "nama_prov1": "Sumatera Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Medan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Utara",
+    "kabupaten": "Kota Medan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -1830,18 +1750,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SUMATERA UTARA",
-    "provinsi": [
-      {
-        "id_ptn": 123,
-        "kode_prov1": "070000",
-        "nama_prov1": "Sumatera Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Deli Serdang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Utara",
+    "kabupaten": "Kabupaten Deli Serdang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -1911,18 +1821,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SYEKH ALI HASAN AHMAD ADDARY PADANGSIDIMPUAN",
-    "provinsi": [
-      {
-        "id_ptn": 124,
-        "kode_prov1": "070000",
-        "nama_prov1": "Sumatera Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Padangsidimpuan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Utara",
+    "kabupaten": "Kota Padangsidimpuan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -1947,18 +1847,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS RIAU",
-    "provinsi": [
-      {
-        "id_ptn": 131,
-        "kode_prov1": "090000",
-        "nama_prov1": "Riau",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Pekanbaru"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Riau",
+    "kabupaten": "Kota Pekanbaru",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -2293,18 +2183,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SULTAN SYARIF KASIM",
-    "provinsi": [
-      {
-        "id_ptn": 132,
-        "kode_prov1": "090000",
-        "nama_prov1": "Riau",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Pekanbaru"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Riau",
+    "kabupaten": "Kota Pekanbaru",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -2409,18 +2289,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS MARITIM RAJA ALI HAJI",
-    "provinsi": [
-      {
-        "id_ptn": 133,
-        "kode_prov1": "310000",
-        "nama_prov1": "Kepulauan Riau",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Tanjungpinang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kepulauan Riau",
+    "kabupaten": "Kota Tanjungpinang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -2580,18 +2450,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS ANDALAS",
-    "provinsi": [
-      {
-        "id_ptn": 141,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Padang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kota Padang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -2896,18 +2756,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI PADANG",
-    "provinsi": [
-      {
-        "id_ptn": 142,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Padang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kota Padang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -3427,18 +3277,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "ISI PADANG PANJANG",
-    "provinsi": [
-      {
-        "id_ptn": 143,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Padang Panjang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kota Padang Panjang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -3558,18 +3398,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN IMAM BONJOL PADANG",
-    "provinsi": [
-      {
-        "id_ptn": 144,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Padang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kota Padang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -3594,18 +3424,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS JAMBI",
-    "provinsi": [
-      {
-        "id_ptn": 151,
-        "kode_prov1": "100000",
-        "nama_prov1": "Jambi",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Muaro Jambi"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jambi",
+    "kabupaten": "Kabupaten Muaro Jambi",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -3970,18 +3790,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SULTAN THAHA SAIFUDDIN JAMBI",
-    "provinsi": [
-      {
-        "id_ptn": 152,
-        "kode_prov1": "100000",
-        "nama_prov1": "Jambi",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Jambi"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jambi",
+    "kabupaten": "Kota Jambi",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -4031,18 +3841,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS BENGKULU",
-    "provinsi": [
-      {
-        "id_ptn": 161,
-        "kode_prov1": "260000",
-        "nama_prov1": "Bengkulu",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bengkulu"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Bengkulu",
+    "kabupaten": "Kota Bengkulu",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -4327,18 +4127,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SRIWIJAYA",
-    "provinsi": [
-      {
-        "id_ptn": 171,
-        "kode_prov1": "110000",
-        "nama_prov1": "Sumatera Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Ogan Ilir"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Selatan",
+    "kabupaten": "Kabupaten Ogan Ilir",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -4653,18 +4443,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN RADEN FATAH",
-    "provinsi": [
-      {
-        "id_ptn": 172,
-        "kode_prov1": "110000",
-        "nama_prov1": "Sumatera Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Palembang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Selatan",
+    "kabupaten": "Kota Palembang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -4719,18 +4499,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS BANGKA BELITUNG",
-    "provinsi": [
-      {
-        "id_ptn": 181,
-        "kode_prov1": "290000",
-        "nama_prov1": "Kepulauan Bangka Belitung",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Bangka"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kepulauan Bangka Belitung",
+    "kabupaten": "Kabupaten Bangka",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -4900,18 +4670,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS LAMPUNG",
-    "provinsi": [
-      {
-        "id_ptn": 191,
-        "kode_prov1": "120000",
-        "nama_prov1": "Lampung",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandar Lampung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Lampung",
+    "kabupaten": "Kota Bandar Lampung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -5321,18 +5081,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "INSTITUT TEKNOLOGI SUMATERA",
-    "provinsi": [
-      {
-        "id_ptn": 192,
-        "kode_prov1": "120000",
-        "nama_prov1": "Lampung",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Lampung Selatan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Lampung",
+    "kabupaten": "Kabupaten Lampung Selatan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -5547,18 +5297,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN RADEN INTAN LAMPUNG",
-    "provinsi": [
-      {
-        "id_ptn": 193,
-        "kode_prov1": "120000",
-        "nama_prov1": "Lampung",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandar Lampung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Lampung",
+    "kabupaten": "Kota Bandar Lampung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -5588,18 +5328,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN MAHMUD YUNUS BATUSANGKAR",
-    "provinsi": [
-      {
-        "id_ptn": 194,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Tanah Datar"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kabupaten Tanah Datar",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -5614,18 +5344,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SJECH M. DJAMIL DJAMBEK BUKITTINGGI",
-    "provinsi": [
-      {
-        "id_ptn": 195,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bukittinggi"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kota Bukittinggi",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -5655,18 +5375,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI LHOKSEUMAWE",
-    "provinsi": [
-      {
-        "id_ptn": 221,
-        "kode_prov1": "060000",
-        "nama_prov1": "Aceh",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Lhokseumawe"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Aceh",
+    "kabupaten": "Kota Lhokseumawe",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -5806,18 +5516,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI MEDAN",
-    "provinsi": [
-      {
-        "id_ptn": 222,
-        "kode_prov1": "070000",
-        "nama_prov1": "Sumatera Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Medan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Utara",
+    "kabupaten": "Kota Medan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -5962,18 +5662,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI BATAM",
-    "provinsi": [
-      {
-        "id_ptn": 231,
-        "kode_prov1": "310000",
-        "nama_prov1": "Kepulauan Riau",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Batam"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kepulauan Riau",
+    "kabupaten": "Kota Batam",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -6093,18 +5783,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI BENGKALIS",
-    "provinsi": [
-      {
-        "id_ptn": 232,
-        "kode_prov1": "090000",
-        "nama_prov1": "Riau",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Bengkalis"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Riau",
+    "kabupaten": "Kabupaten Bengkalis",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -6204,18 +5884,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI PADANG",
-    "provinsi": [
-      {
-        "id_ptn": 241,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Padang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kota Padang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -6390,18 +6060,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK PERTANIAN NEGERI PAYAKUMBUH",
-    "provinsi": [
-      {
-        "id_ptn": 242,
-        "kode_prov1": "080000",
-        "nama_prov1": "Sumatera Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Lima Puluh Koto"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Barat",
+    "kabupaten": "Kabupaten Lima Puluh Koto",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -6486,18 +6146,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI SRIWIJAYA",
-    "provinsi": [
-      {
-        "id_ptn": 271,
-        "kode_prov1": "110000",
-        "nama_prov1": "Sumatera Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Palembang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sumatera Selatan",
+    "kabupaten": "Kota Palembang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -6687,18 +6337,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK MANUFAKTUR NEGERI BANGKA BELITUNG",
-    "provinsi": [
-      {
-        "id_ptn": 281,
-        "kode_prov1": "290000",
-        "nama_prov1": "Kepulauan Bangka Belitung",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Bangka"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kepulauan Bangka Belitung",
+    "kabupaten": "Kabupaten Bangka",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -6758,18 +6398,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI LAMPUNG",
-    "provinsi": [
-      {
-        "id_ptn": 291,
-        "kode_prov1": "120000",
-        "nama_prov1": "Lampung",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandar Lampung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Lampung",
+    "kabupaten": "Kota Bandar Lampung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -6974,18 +6604,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SULTAN AGENG TIRTAYASA",
-    "provinsi": [
-      {
-        "id_ptn": 311,
-        "kode_prov1": "280000",
-        "nama_prov1": "Banten",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Serang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Banten",
+    "kabupaten": "Kabupaten Serang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -7235,18 +6855,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SULTAN MAULANA HASANUDDIN BANTEN",
-    "provinsi": [
-      {
-        "id_ptn": 312,
-        "kode_prov1": "280000",
-        "nama_prov1": "Banten",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Serang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Banten",
+    "kabupaten": "Kota Serang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -7281,18 +6891,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS INDONESIA",
-    "provinsi": [
-      {
-        "id_ptn": 321,
-        "kode_prov1": "010000",
-        "nama_prov1": "Jakarta Raya",
-        "kode_prov2": "020000",
-        "nama_prov2": "Jawa Barat",
-        "kode_kota": "-",
-        "nama_kota": "Kota Jakarta Pusat"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jakarta Raya",
+    "kabupaten": "Kota Jakarta Pusat",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -7702,18 +7302,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN JAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 322,
-        "kode_prov1": "280000",
-        "nama_prov1": "Banten",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Tangerang Selatan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Banten",
+    "kabupaten": "Kota Tangerang Selatan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -7853,18 +7443,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI JAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 323,
-        "kode_prov1": "010000",
-        "nama_prov1": "Jakarta Raya",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Jakarta Timur"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jakarta Raya",
+    "kabupaten": "Kota Jakarta Timur",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -8269,18 +7849,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UPN \"VETERAN\" JAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 324,
-        "kode_prov1": "010000",
-        "nama_prov1": "Jakarta Raya",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Jakarta Selatan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jakarta Raya",
+    "kabupaten": "Kota Jakarta Selatan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -8440,18 +8010,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SINGAPERBANGSA KARAWANG",
-    "provinsi": [
-      {
-        "id_ptn": 331,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Karawang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kabupaten Karawang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -8636,18 +8196,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "INSTITUT TEKNOLOGI BANDUNG",
-    "provinsi": [
-      {
-        "id_ptn": 332,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Bandung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -8777,18 +8327,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS PADJADJARAN",
-    "provinsi": [
-      {
-        "id_ptn": 333,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Sumedang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kabupaten Sumedang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -9163,18 +8703,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS PENDIDIKAN INDONESIA",
-    "provinsi": [
-      {
-        "id_ptn": 334,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Bandung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -9714,18 +9244,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "ISBI BANDUNG",
-    "provinsi": [
-      {
-        "id_ptn": 335,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Bandung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -9795,18 +9315,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SUNAN GUNUNG DJATI",
-    "provinsi": [
-      {
-        "id_ptn": 336,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Bandung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -9901,18 +9411,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "INSTITUT PERTANIAN BOGOR",
-    "provinsi": [
-      {
-        "id_ptn": 341,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Bogor"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kabupaten Bogor",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -10262,18 +9762,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SILIWANGI",
-    "provinsi": [
-      {
-        "id_ptn": 342,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Tasikmalaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Tasikmalaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -10428,18 +9918,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS JENDERAL SOEDIRMAN",
-    "provinsi": [
-      {
-        "id_ptn": 351,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Banyumas"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kabupaten Banyumas",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -10734,18 +10214,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS TIDAR",
-    "provinsi": [
-      {
-        "id_ptn": 352,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Magelang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Magelang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -10900,18 +10370,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SEBELAS MARET",
-    "provinsi": [
-      {
-        "id_ptn": 353,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surakarta"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Surakarta",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -11411,18 +10871,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "ISI SURAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 354,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surakarta"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Surakarta",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -11537,18 +10987,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS DIPONEGORO",
-    "provinsi": [
-      {
-        "id_ptn": 355,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Semarang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Semarang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -11903,18 +11343,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI SEMARANG",
-    "provinsi": [
-      {
-        "id_ptn": 356,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Semarang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Semarang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -12309,18 +11739,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN WALISONGO",
-    "provinsi": [
-      {
-        "id_ptn": 357,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Semarang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Semarang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -12400,18 +11820,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN RADEN MAS SAID SURAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 358,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupate Sukoharjo"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kabupate Sukoharjo",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -12456,18 +11866,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS GADJAH MADA",
-    "provinsi": [
-      {
-        "id_ptn": 361,
-        "kode_prov1": "040000",
-        "nama_prov1": "Yogyakarta",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Sleman"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Yogyakarta",
+    "kabupaten": "Kabupaten Sleman",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -12942,18 +12342,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI YOGYAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 362,
-        "kode_prov1": "040000",
-        "nama_prov1": "Yogyakarta",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Sleman"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Yogyakarta",
+    "kabupaten": "Kabupaten Sleman",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -13373,18 +12763,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UPN \"VETERAN\" YOGYAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 363,
-        "kode_prov1": "040000",
-        "nama_prov1": "Yogyakarta",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Sleman"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Yogyakarta",
+    "kabupaten": "Kabupaten Sleman",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -13504,18 +12884,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "ISI YOGYAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 364,
-        "kode_prov1": "040000",
-        "nama_prov1": "Yogyakarta",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Bantul"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Yogyakarta",
+    "kabupaten": "Kabupaten Bantul",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -13645,18 +13015,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SUNAN KALIJAGA",
-    "provinsi": [
-      {
-        "id_ptn": 365,
-        "kode_prov1": "040000",
-        "nama_prov1": "Yogyakarta",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Sleman"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Yogyakarta",
+    "kabupaten": "Kabupaten Sleman",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -13761,18 +13121,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN PROFESOR KIAI HAJI SAIFUDDIN ZUHRI PURWOKERTO",
-    "provinsi": [
-      {
-        "id_ptn": 366,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Banyumas"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kabupaten Banyumas",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -13802,18 +13152,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SALATIGA",
-    "provinsi": [
-      {
-        "id_ptn": 367,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Salatiga"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Salatiga",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -13843,18 +13183,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN K.H. ABDURRAHMAN WAHID PEKALONGAN",
-    "provinsi": [
-      {
-        "id_ptn": 368,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Pekalongan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Pekalongan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -13894,18 +13224,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS JEMBER",
-    "provinsi": [
-      {
-        "id_ptn": 371,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupate Jember"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kabupate Jember",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -14295,18 +13615,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS BRAWIJAYA",
-    "provinsi": [
-      {
-        "id_ptn": 372,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Malang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Malang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -14741,18 +14051,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI MALANG",
-    "provinsi": [
-      {
-        "id_ptn": 373,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Malang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Malang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -15162,18 +14462,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN MALANG",
-    "provinsi": [
-      {
-        "id_ptn": 374,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Malang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Malang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -15273,18 +14563,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS AIRLANGGA",
-    "provinsi": [
-      {
-        "id_ptn": 381,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surabaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Surabaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -15604,18 +14884,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "INSTITUT TEKNOLOGI SEPULUH NOPEMBER",
-    "provinsi": [
-      {
-        "id_ptn": 382,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surabaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Surabaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -15910,18 +15180,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI SURABAYA",
-    "provinsi": [
-      {
-        "id_ptn": 383,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surabaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Surabaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -16526,18 +15786,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS TRUNOJOYO MADURA",
-    "provinsi": [
-      {
-        "id_ptn": 384,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Bangkalan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kabupaten Bangkalan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -16692,18 +15942,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UPN \"VETERAN\" JAWA TIMUR",
-    "provinsi": [
-      {
-        "id_ptn": 385,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surabaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Surabaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -16858,18 +16098,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SUNAN AMPEL SURABAYA",
-    "provinsi": [
-      {
-        "id_ptn": 386,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surabaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Surabaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -16994,18 +16224,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI JAKARTA",
-    "provinsi": [
-      {
-        "id_ptn": 421,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Depok"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Depok",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -17190,18 +16410,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI MEDIA KREATIF",
-    "provinsi": [
-      {
-        "id_ptn": 422,
-        "kode_prov1": "010000",
-        "nama_prov1": "Jakarta Raya",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Jakarta Selatan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jakarta Raya",
+    "kabupaten": "Kota Jakarta Selatan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -17326,18 +16536,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI BANDUNG",
-    "provinsi": [
-      {
-        "id_ptn": 431,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Bandung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -17532,18 +16732,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK MANUFAKTUR BANDUNG",
-    "provinsi": [
-      {
-        "id_ptn": 432,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Bandung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kota Bandung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -17623,18 +16813,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI INDRAMAYU",
-    "provinsi": [
-      {
-        "id_ptn": 433,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Indramayu"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kabupaten Indramayu",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -17704,18 +16884,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI SUBANG",
-    "provinsi": [
-      {
-        "id_ptn": 434,
-        "kode_prov1": "020000",
-        "nama_prov1": "Jawa Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Subang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Barat",
+    "kabupaten": "Kabupaten Subang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -17775,18 +16945,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI SEMARANG",
-    "provinsi": [
-      {
-        "id_ptn": 452,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Semarang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Semarang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -17926,18 +17086,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI CILACAP",
-    "provinsi": [
-      {
-        "id_ptn": 453,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Cilacap"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kabupaten Cilacap",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18012,18 +17162,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK MARITIM NEGERI INDONESIA ",
-    "provinsi": [
-      {
-        "id_ptn": 454,
-        "kode_prov1": "030000",
-        "nama_prov1": "Jawa Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Semarang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Tengah",
+    "kabupaten": "Kota Semarang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18068,18 +17208,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI BANYUWANGI",
-    "provinsi": [
-      {
-        "id_ptn": 471,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Banyuwangi"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kabupaten Banyuwangi",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18184,18 +17314,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI JEMBER",
-    "provinsi": [
-      {
-        "id_ptn": 472,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupate Jember"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kabupate Jember",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18400,18 +17520,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI MADIUN",
-    "provinsi": [
-      {
-        "id_ptn": 473,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Madiun"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Madiun",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18496,18 +17606,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI MALANG",
-    "provinsi": [
-      {
-        "id_ptn": 474,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Malang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Malang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18722,18 +17822,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK PERKAPALAN NEGERI SURABAYA",
-    "provinsi": [
-      {
-        "id_ptn": 481,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surabaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Surabaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18828,18 +17918,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS)",
-    "provinsi": [
-      {
-        "id_ptn": 482,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Surabaya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kota Surabaya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -18964,18 +18044,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI MADURA",
-    "provinsi": [
-      {
-        "id_ptn": 483,
-        "kode_prov1": "050000",
-        "nama_prov1": "Jawa Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Sampang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Jawa Timur",
+    "kabupaten": "Kabupaten Sampang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -19025,18 +18095,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS TANJUNGPURA",
-    "provinsi": [
-      {
-        "id_ptn": 511,
-        "kode_prov1": "130000",
-        "nama_prov1": "Kalimantan Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Pontianak"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Barat",
+    "kabupaten": "Kota Pontianak",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -19391,18 +18451,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI PONTIANAK",
-    "provinsi": [
-      {
-        "id_ptn": 515,
-        "kode_prov1": "130000",
-        "nama_prov1": "Kalimantan Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Pontianak"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Barat",
+    "kabupaten": "Kota Pontianak",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -19582,18 +18632,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI KETAPANG",
-    "provinsi": [
-      {
-        "id_ptn": 516,
-        "kode_prov1": "130000",
-        "nama_prov1": "Kalimantan Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Ketapang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Barat",
+    "kabupaten": "Kabupaten Ketapang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -19648,18 +18688,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI SAMBAS",
-    "provinsi": [
-      {
-        "id_ptn": 517,
-        "kode_prov1": "130000",
-        "nama_prov1": "Kalimantan Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Sambas"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Barat",
+    "kabupaten": "Kabupaten Sambas",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -19724,18 +18754,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS PALANGKARAYA",
-    "provinsi": [
-      {
-        "id_ptn": 521,
-        "kode_prov1": "140000",
-        "nama_prov1": "Kalimantan Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Palangkaraya"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Tengah",
+    "kabupaten": "Kota Palangkaraya",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -19965,18 +18985,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS LAMBUNG MANGKURAT",
-    "provinsi": [
-      {
-        "id_ptn": 531,
-        "kode_prov1": "150000",
-        "nama_prov1": "Kalimantan Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Banjarmasin"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Selatan",
+    "kabupaten": "Kota Banjarmasin",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -20351,18 +19361,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN ANTASARI BANJARMASIN",
-    "provinsi": [
-      {
-        "id_ptn": 532,
-        "kode_prov1": "150000",
-        "nama_prov1": "Kalimantan Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Banjarmasin"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Selatan",
+    "kabupaten": "Kota Banjarmasin",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -20387,18 +19387,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI BANJARMASIN",
-    "provinsi": [
-      {
-        "id_ptn": 536,
-        "kode_prov1": "150000",
-        "nama_prov1": "Kalimantan Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Banjarmasin"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Selatan",
+    "kabupaten": "Kota Banjarmasin",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -20513,18 +19503,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI TANAH LAUT",
-    "provinsi": [
-      {
-        "id_ptn": 537,
-        "kode_prov1": "150000",
-        "nama_prov1": "Kalimantan Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Tanah Laut"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Selatan",
+    "kabupaten": "Kabupaten Tanah Laut",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -20584,18 +19564,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS MULAWARMAN",
-    "provinsi": [
-      {
-        "id_ptn": 541,
-        "kode_prov1": "160000",
-        "nama_prov1": "Kalimantan Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Samarinda"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Timur",
+    "kabupaten": "Kota Samarinda",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -20955,18 +19925,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "INSTITUT TEKNOLOGI KALIMANTAN",
-    "provinsi": [
-      {
-        "id_ptn": 542,
-        "kode_prov1": "160000",
-        "nama_prov1": "Kalimantan Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Balikpapan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Timur",
+    "kabupaten": "Kota Balikpapan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21101,18 +20061,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS BORNEO TARAKAN",
-    "provinsi": [
-      {
-        "id_ptn": 551,
-        "kode_prov1": "340000",
-        "nama_prov1": "Kalimantan Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Tarakan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Utara",
+    "kabupaten": "Kota Tarakan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21242,18 +20192,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI NUNUKAN",
-    "provinsi": [
-      {
-        "id_ptn": 552,
-        "kode_prov1": "340000",
-        "nama_prov1": "Kalimantan Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Nunukan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Utara",
+    "kabupaten": "Kabupaten Nunukan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21283,18 +20223,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK PERTANIAN NEGERI SAMARINDA",
-    "provinsi": [
-      {
-        "id_ptn": 561,
-        "kode_prov1": "160000",
-        "nama_prov1": "Kalimantan Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Samarinda"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Timur",
+    "kabupaten": "Kota Samarinda",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21374,18 +20304,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI SAMARINDA",
-    "provinsi": [
-      {
-        "id_ptn": 562,
-        "kode_prov1": "160000",
-        "nama_prov1": "Kalimantan Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Samarinda"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Timur",
+    "kabupaten": "Kota Samarinda",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21525,18 +20445,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI BALIKPAPAN",
-    "provinsi": [
-      {
-        "id_ptn": 563,
-        "kode_prov1": "160000",
-        "nama_prov1": "Kalimantan Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Balikpapan"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Timur",
+    "kabupaten": "Kota Balikpapan",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21606,18 +20516,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN SULTAN AJI MUHAMMAD IDRIS SAMARINDA",
-    "provinsi": [
-      {
-        "id_ptn": 571,
-        "kode_prov1": "160000",
-        "nama_prov1": "Kalimantan Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Samarinda"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Kalimantan Timur",
+    "kabupaten": "Kota Samarinda",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21632,18 +20532,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS UDAYANA",
-    "provinsi": [
-      {
-        "id_ptn": 611,
-        "kode_prov1": "220000",
-        "nama_prov1": "Bali",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Badung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Bali",
+    "kabupaten": "Kabupaten Badung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -21923,18 +20813,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS PENDIDIKAN GANESHA",
-    "provinsi": [
-      {
-        "id_ptn": 612,
-        "kode_prov1": "220000",
-        "nama_prov1": "Bali",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Buleleng"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Bali",
+    "kabupaten": "Kabupaten Buleleng",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -22204,18 +21084,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "ISI BALI",
-    "provinsi": [
-      {
-        "id_ptn": 613,
-        "kode_prov1": "220000",
-        "nama_prov1": "Bali",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Denpasar"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Bali",
+    "kabupaten": "Kota Denpasar",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -22320,18 +21190,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI BALI",
-    "provinsi": [
-      {
-        "id_ptn": 617,
-        "kode_prov1": "220000",
-        "nama_prov1": "Bali",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Badung"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Bali",
+    "kabupaten": "Kabupaten Badung",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -22476,18 +21336,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS MATARAM",
-    "provinsi": [
-      {
-        "id_ptn": 621,
-        "kode_prov1": "230000",
-        "nama_prov1": "Nusa Tenggara Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Mataram"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Nusa Tenggara Barat",
+    "kabupaten": "Kota Mataram",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -22717,18 +21567,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN MATARAM",
-    "provinsi": [
-      {
-        "id_ptn": 622,
-        "kode_prov1": "230000",
-        "nama_prov1": "Nusa Tenggara Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Mataram"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Nusa Tenggara Barat",
+    "kabupaten": "Kota Mataram",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -22763,18 +21603,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NUSA CENDANA",
-    "provinsi": [
-      {
-        "id_ptn": 631,
-        "kode_prov1": "240000",
-        "nama_prov1": "Nusa Tenggara Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Kupang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Nusa Tenggara Timur",
+    "kabupaten": "Kota Kupang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -23029,18 +21859,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS TIMOR",
-    "provinsi": [
-      {
-        "id_ptn": 632,
-        "kode_prov1": "240000",
-        "nama_prov1": "Nusa Tenggara Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Timor Tengah Utara"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Nusa Tenggara Timur",
+    "kabupaten": "Kabupaten Timor Tengah Utara",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -23140,18 +21960,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI KUPANG",
-    "provinsi": [
-      {
-        "id_ptn": 641,
-        "kode_prov1": "240000",
-        "nama_prov1": "Nusa Tenggara Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Kupang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Nusa Tenggara Timur",
+    "kabupaten": "Kota Kupang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -23241,18 +22051,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK PERTANIAN NEGERI KUPANG",
-    "provinsi": [
-      {
-        "id_ptn": 642,
-        "kode_prov1": "240000",
-        "nama_prov1": "Nusa Tenggara Timur",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Kupang"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Nusa Tenggara Timur",
+    "kabupaten": "Kota Kupang",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -23337,18 +22137,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS HASANUDDIN",
-    "provinsi": [
-      {
-        "id_ptn": 711,
-        "kode_prov1": "190000",
-        "nama_prov1": "Sulawesi Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Makassar"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Selatan",
+    "kabupaten": "Kota Makassar",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -23798,18 +22588,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI MAKASSAR",
-    "provinsi": [
-      {
-        "id_ptn": 712,
-        "kode_prov1": "190000",
-        "nama_prov1": "Sulawesi Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Makassar"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Selatan",
+    "kabupaten": "Kota Makassar",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -24314,18 +23094,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN ALAUDDIN",
-    "provinsi": [
-      {
-        "id_ptn": 713,
-        "kode_prov1": "190000",
-        "nama_prov1": "Sulawesi Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Gowa"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Selatan",
+    "kabupaten": "Kabupaten Gowa",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -24420,18 +23190,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI UJUNG PANDANG",
-    "provinsi": [
-      {
-        "id_ptn": 716,
-        "kode_prov1": "190000",
-        "nama_prov1": "Sulawesi Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Makassar"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Selatan",
+    "kabupaten": "Kota Makassar",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -24621,18 +23381,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK PERTANIAN NEGERI PANGKAJENE KEPULAUAN",
-    "provinsi": [
-      {
-        "id_ptn": 717,
-        "kode_prov1": "190000",
-        "nama_prov1": "Sulawesi Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Pangkaje"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Selatan",
+    "kabupaten": "Kabupaten Pangkaje",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -24722,18 +23472,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "INSTITUT TEKNOLOGI BJ. HABIBIE SULAWESI SELATAN",
-    "provinsi": [
-      {
-        "id_ptn": 718,
-        "kode_prov1": "190000",
-        "nama_prov1": "Sulawesi Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Parepare"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Selatan",
+    "kabupaten": "Kota Parepare",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -24833,18 +23573,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SAM RATULANGI",
-    "provinsi": [
-      {
-        "id_ptn": 721,
-        "kode_prov1": "170000",
-        "nama_prov1": "Sulawesi Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Manado"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Utara",
+    "kabupaten": "Kota Manado",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -25104,18 +23834,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI MANADO",
-    "provinsi": [
-      {
-        "id_ptn": 722,
-        "kode_prov1": "170000",
-        "nama_prov1": "Sulawesi Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Minahasa"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Utara",
+    "kabupaten": "Kabupaten Minahasa",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -25375,18 +24095,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI MANADO",
-    "provinsi": [
-      {
-        "id_ptn": 727,
-        "kode_prov1": "170000",
-        "nama_prov1": "Sulawesi Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Manado"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Utara",
+    "kabupaten": "Kota Manado",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -25496,18 +24206,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI NUSA UTARA",
-    "provinsi": [
-      {
-        "id_ptn": 728,
-        "kode_prov1": "170000",
-        "nama_prov1": "Sulawesi Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Kepulauan Sangihe"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Utara",
+    "kabupaten": "Kabupaten Kepulauan Sangihe",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -25542,18 +24242,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS TADULAKO",
-    "provinsi": [
-      {
-        "id_ptn": 731,
-        "kode_prov1": "180000",
-        "nama_prov1": "Sulawesi Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Palu"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Tengah",
+    "kabupaten": "Kota Palu",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -25888,18 +24578,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UIN DATOKARAMA PALU",
-    "provinsi": [
-      {
-        "id_ptn": 732,
-        "kode_prov1": "180000",
-        "nama_prov1": "Sulawesi Tengah",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Palu"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Tengah",
+    "kabupaten": "Kota Palu",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -25924,18 +24604,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SULAWESI BARAT",
-    "provinsi": [
-      {
-        "id_ptn": 741,
-        "kode_prov1": "330000",
-        "nama_prov1": "Sulawesi Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Majene"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Barat",
+    "kabupaten": "Kabupaten Majene",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -26135,18 +24805,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS HALUOLEO",
-    "provinsi": [
-      {
-        "id_ptn": 751,
-        "kode_prov1": "200000",
-        "nama_prov1": "Sulawesi Tenggara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Kendari"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Tenggara",
+    "kabupaten": "Kota Kendari",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -26571,18 +25231,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS NEGERI GORONTALO",
-    "provinsi": [
-      {
-        "id_ptn": 752,
-        "kode_prov1": "300000",
-        "nama_prov1": "Gorontalo",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Gorontalo"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Gorontalo",
+    "kabupaten": "Kota Gorontalo",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -26922,18 +25572,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS SEMBILAN BELAS NOVEMBER KOLAKA",
-    "provinsi": [
-      {
-        "id_ptn": 753,
-        "kode_prov1": "200000",
-        "nama_prov1": "Sulawesi Tenggara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Kolaka"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Sulawesi Tenggara",
+    "kabupaten": "Kabupaten Kolaka",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -27098,18 +25738,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS PATTIMURA",
-    "provinsi": [
-      {
-        "id_ptn": 811,
-        "kode_prov1": "210000",
-        "nama_prov1": "Maluku",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Ambon"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Maluku",
+    "kabupaten": "Kota Ambon",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -27529,18 +26159,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS KHAIRUN",
-    "provinsi": [
-      {
-        "id_ptn": 821,
-        "kode_prov1": "270000",
-        "nama_prov1": "Maluku Utara",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Ternate"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Maluku Utara",
+    "kabupaten": "Kota Ternate",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -27750,18 +26370,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI AMBON",
-    "provinsi": [
-      {
-        "id_ptn": 831,
-        "kode_prov1": "210000",
-        "nama_prov1": "Maluku",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Ambon"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Maluku",
+    "kabupaten": "Kota Ambon",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -27846,18 +26456,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK PERIKANAN NEGERI TUAL",
-    "provinsi": [
-      {
-        "id_ptn": 832,
-        "kode_prov1": "210000",
-        "nama_prov1": "Maluku",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Maluku Tenggara"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Maluku",
+    "kabupaten": "Kabupaten Maluku Tenggara",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -27917,18 +26517,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS CENDERAWASIH",
-    "provinsi": [
-      {
-        "id_ptn": 911,
-        "kode_prov1": "250000",
-        "nama_prov1": "Papua",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kota Jayapura"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Papua",
+    "kabupaten": "Kota Jayapura",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -28208,18 +26798,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS MUSAMUS MERAUKE",
-    "provinsi": [
-      {
-        "id_ptn": 912,
-        "kode_prov1": "370000",
-        "nama_prov1": "Papua Selatan",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Merauke"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Papua Selatan",
+    "kabupaten": "Kabupaten Merauke",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -28384,18 +26964,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "ISBI TANAH PAPUA",
-    "provinsi": [
-      {
-        "id_ptn": 913,
-        "kode_prov1": "250000",
-        "nama_prov1": "Papua",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupate Jayapura"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Papua",
+    "kabupaten": "Kabupate Jayapura",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -28430,18 +27000,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "UNIVERSITAS PAPUA",
-    "provinsi": [
-      {
-        "id_ptn": 921,
-        "kode_prov1": "320000",
-        "nama_prov1": "Papua Barat",
-        "kode_prov2": "390000",
-        "nama_prov2": "Papua Barat Daya",
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Manokwari"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Papua Barat",
+    "kabupaten": "Kabupaten Manokwari",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
@@ -28686,18 +27246,8 @@
   {
     "kode_kampus": "",
     "nama_kampus": "POLITEKNIK NEGERI FAKFAK",
-    "provinsi": [
-      {
-        "id_ptn": 931,
-        "kode_prov1": "320000",
-        "nama_prov1": "Papua Barat",
-        "kode_prov2": null,
-        "nama_prov2": null,
-        "kode_kota": "-",
-        "nama_kota": "Kabupaten Fak-Fak"
-      }
-    ],
-    "kabupaten": null,
+    "provinsi": "Papua Barat",
+    "kabupaten": "Kabupaten Fak-Fak",
     "alamat_jalan": null,
     "website": null,
     "telepon": null,
