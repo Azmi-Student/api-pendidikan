@@ -1,18 +1,22 @@
-import { createClient } from '@supabase/supabase-js';
+﻿import { createClient } from '@supabase/supabase-js';
 import { NextResponse } from 'next/server';
+import fs from 'fs';
+import path from 'path';
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL || '',
   process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || ''
 );
 
-// Kamus khusus untuk singkatan suku kata yang nggak sesuai aturan awal huruf
+// Kamus khusus untuk singkatan suku kata yang tidak sesuai aturan awal huruf
 const aliasSukuKata: Record<string, string> = {
   "unpad": "universitas padjadjaran",
   "undip": "universitas diponegoro",
   "unair": "universitas airlangga",
   "unhas": "universitas hasanuddin",
-  "unnes": "universitas negeri semarang", "uns": "universitas sebelas maret", "usu": "universitas sumatera utara",
+  "unnes": "universitas negeri semarang",
+  "uns": "universitas sebelas maret",
+  "usu": "universitas sumatera utara",
   "unesa": "universitas negeri surabaya",
   "unsri": "universitas sriwijaya",
   "unila": "universitas lampung",
@@ -65,12 +69,23 @@ const aliasSukuKata: Record<string, string> = {
   "pnk": "politeknik negeri kupang"
 };
 
-// Mesin Pembuat Pola Akronim Otomatis (Contoh: "itb" -> "i% t% b%")
-function getAcronymPattern(word: string) {
-  if (/^[a-zA-Z]{2,6}$/.test(word)) {
-    return word.split('').join('% ') + '%';
+function matchAcronym(queryWord: string, text: string): boolean {
+  if (!queryWord || queryWord.length < 2 || queryWord.length > 6) return false;
+  const pattern = '^' + queryWord.split('').map(char => `${char}\\w*`).join('\\s+');
+  const regex = new RegExp(pattern, 'i');
+  return regex.test(text);
+}
+
+function getLocalKampusData(): any[] {
+  try {
+    const jsonPath = path.join(process.cwd(), 'data', 'master_kampus.json');
+    if (!fs.existsSync(jsonPath)) return [];
+    const raw = fs.readFileSync(jsonPath, 'utf-8');
+    return JSON.parse(raw);
+  } catch (err) {
+    console.warn('Gagal membaca data/master_kampus.json:', err);
+    return [];
   }
-  return null;
 }
 
 export async function GET(request: Request) {
@@ -82,47 +97,112 @@ export async function GET(request: Request) {
   const offset = (page - 1) * limit;
 
   // Extract filters
-  const provinsiFilter = searchParams.get('provinsi');
-  const kabupatenFilter = searchParams.get('kabupaten') || searchParams.get('kota');
-  let q = searchParams.get('q') || '';
+  const provinsiFilter = (searchParams.get('provinsi') || '').toLowerCase().trim();
+  const kabupatenFilter = (searchParams.get('kabupaten') || searchParams.get('kota') || '').toLowerCase().trim();
+  let rawQ = (searchParams.get('q') || searchParams.get('prodi') || '').trim();
+
+  // 1. Coba baca dari master_kampus.json lokal (ultra fast ~1ms & supports prodi search)
+  const localList = getLocalKampusData();
   
-  // 1. Cek kamus manual dulu
-  const lowerQ = q.toLowerCase().trim();
-  if (aliasSukuKata[lowerQ]) {
-    q = aliasSukuKata[lowerQ];
-  }
-  
-    let query = supabase.from('kampus').select('*');
-  
-  // Apply direct filters if provided
-  if (provinsiFilter) query = query.ilike('provinsi', `%${provinsiFilter}%`);
-  if (kabupatenFilter) query = query.ilike('kabupaten', `%${kabupatenFilter}%`);
-  
-  query = query.range(offset, offset + limit - 1);
-  
-  if (q) {
-    const words = q.split(' ').filter(w => w.trim() !== '');
-    
-    words.forEach(word => {
-      let orString = `nama_kampus.ilike.%${word}%,kode_kampus.ilike.%${word}%`;
-      
-      // 2. Suntikkan Algoritma Pola Huruf Depan
-      const acronym = getAcronymPattern(word);
-      if (acronym) {
-        orString += `,nama_kampus.ilike.${acronym}`;
+  if (localList.length > 0) {
+    let filtered = localList;
+
+    if (provinsiFilter) {
+      filtered = filtered.filter(k => (k.provinsi || '').toLowerCase().includes(provinsiFilter));
+    }
+
+    if (kabupatenFilter) {
+      filtered = filtered.filter(k => (k.kabupaten || '').toLowerCase().includes(kabupatenFilter));
+    }
+
+    if (rawQ) {
+      const lowerQ = rawQ.toLowerCase();
+      const expandedQ = aliasSukuKata[lowerQ] || lowerQ;
+      const searchTerms = expandedQ.split(/\s+/).filter(Boolean);
+
+      const matchedResults: any[] = [];
+
+      for (const k of filtered) {
+        const namaKampusLower = (k.nama_kampus || '').toLowerCase();
+        const kodeKampusLower = (k.kode_kampus || '').toLowerCase();
+        const listProdi = Array.isArray(k.prodi) ? k.prodi : [];
+
+        // Cek kecocokan nama kampus atau kode kampus
+        const isNameMatch = 
+          namaKampusLower.includes(expandedQ) || 
+          kodeKampusLower.includes(expandedQ) ||
+          matchAcronym(lowerQ, namaKampusLower) ||
+          searchTerms.every(term => namaKampusLower.includes(term));
+
+        // Cek kecocokan nama program studi (seperti: "teknik informatika", "kedokteran", dll)
+        const matchedProdis = listProdi.filter((p: any) => {
+          const pNamaLower = (p.nama || '').toLowerCase();
+          return pNamaLower.includes(lowerQ) || searchTerms.every(term => pNamaLower.includes(term));
+        });
+
+        if (isNameMatch || matchedProdis.length > 0) {
+          // Susun agar prodi yang cocok langsung muncul di preview tabel terdepan
+          const otherProdis = listProdi.filter((p: any) => !matchedProdis.includes(p));
+          matchedResults.push({
+            ...k,
+            prodi: [...matchedProdis, ...otherProdis],
+            _isNameMatch: isNameMatch,
+            _matchedProdiCount: matchedProdis.length
+          });
+        }
       }
-      
-      query = query.or(orString);
+
+      // Urutkan: kecocokan nama kampus teratas, disusul jumlah prodi yang cocok
+      matchedResults.sort((a, b) => {
+        if (a._isNameMatch && !b._isNameMatch) return -1;
+        if (!a._isNameMatch && b._isNameMatch) return 1;
+        return b._matchedProdiCount - a._matchedProdiCount;
+      });
+
+      const paginated = matchedResults.slice(offset, offset + limit).map(item => {
+        const { _isNameMatch, _matchedProdiCount, ...rest } = item;
+        return rest;
+      });
+
+      return NextResponse.json({
+        data: paginated,
+        source: 'local_master',
+        meta: {
+          page,
+          limit,
+          total: matchedResults.length
+        }
+      });
+    }
+
+    const paginated = filtered.slice(offset, offset + limit);
+    return NextResponse.json({
+      data: paginated,
+      source: 'local_master',
+      meta: {
+        page,
+        limit,
+        total: filtered.length
+      }
     });
   }
-  
-  const { data, error } = await query; const count = null;
+
+  // 2. Fallback ke Supabase jika file lokal tidak ditemukan
+  let query = supabase.from('kampus').select('*');
+  if (provinsiFilter) query = query.ilike('provinsi', `%${provinsiFilter}%`);
+  if (kabupatenFilter) query = query.ilike('kabupaten', `%${kabupatenFilter}%`);
+  query = query.range(offset, offset + limit - 1);
+
+  if (rawQ) {
+    const lowerQ = rawQ.toLowerCase().trim();
+    const effectiveQ = aliasSukuKata[lowerQ] || rawQ;
+    const words = effectiveQ.split(' ').filter(w => w.trim() !== '');
+    words.forEach(word => {
+      query = query.or(`nama_kampus.ilike.%${word}%,kode_kampus.ilike.%${word}%`);
+    });
+  }
+
+  const { data, error } = await query;
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-  return NextResponse.json({ data, meta: { page, limit, total: count } });
+  return NextResponse.json({ data, source: 'supabase', meta: { page, limit, total: null } });
 }
-
-
-
-
-
-

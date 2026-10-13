@@ -1,0 +1,904 @@
+{
+  "meta": {
+    "judul": "Master Dataset Jurusan dan Peminatan Sekolah Menengah Indonesia (SMA, MA, SMK)",
+    "dasar_hukum": "Keputusan Kepala BSKAP Kemendikbudristek No. 024/H/KR/2022 tentang Spektrum Keahlian SMK/MAK & Nomenklatur Kurikulum Merdeka",
+    "versi": "1.0.0",
+    "total_jenjang": ["SMA", "MA", "SMK"]
+  },
+  "SMA": [
+    {
+      "id": "SMA-MIPA",
+      "nama": "MIPA (Matematika dan Ilmu Pengetahuan Alam)",
+      "alias": ["IPA", "Ilmu Alam", "Sains", "MIPA"],
+      "rumpun": "Sains dan Teknologi (Saintek)",
+      "mata_pelajaran_pilihan": ["Matematika Tingkat Lanjut", "Fisika", "Kimia", "Biologi", "Informatika"],
+      "rekomendasi_prodi_ptn": [
+        "Kedokteran", "Kedokteran Gigi", "Farmasi", "Teknik Informatika", "Teknik Sipil",
+        "Teknik Elektro", "Teknik Mesin", "Teknik Industri", "Sistem Informasi", "Sains Data",
+        "Statistika", "Matematika", "Fisika", "Kimia", "Biologi", "Arsitektur", "Bioteknologi",
+        "Teknik Lingkungan", "Teknik Kimia", "Ilmu Komputer"
+      ]
+    },
+    {
+      "id": "SMA-IPS",
+      "nama": "IPS (Ilmu Pengetahuan Sosial)",
+      "alias": ["IPS", "Sosial", "Humaniora", "Soshum"],
+      "rumpun": "Sosial dan Humaniora (Soshum)",
+      "mata_pelajaran_pilihan": ["Sosiologi", "Ekonomi", "Geografi", "Antropologi"],
+      "rekomendasi_prodi_ptn": [
+        "Ilmu Hukum", "Manajemen", "Akuntansi", "Ilmu Komunikasi", "Psikologi",
+        "Hubungan Internasional", "Ilmu Administrasi Bisnis", "Ilmu Administrasi Publik",
+        "Sosiologi", "Ilmu Politik", "Ekonomi Pembangunan", "Perencanaan Wilayah dan Kota",
+        "Pendidikan Guru Sekolah Dasar (PGSD)", "Kriminologi"
+      ]
+    },
+    {
+      "id": "SMA-BAHASA",
+      "nama": "Bahasa dan Budaya",
+      "alias": ["Bahasa", "Ilmu Bahasa", "Sastra"],
+      "rumpun": "Bahasa, Budaya, dan Seni",
+      "mata_pelajaran_pilihan": ["Bahasa dan Sastra Indonesia Tingkat Lanjut", "Bahasa Inggris Tingkat Lanjut", "Bahasa Asing Lain (Jepang/Mandarin/Jerman/Prancis)", "Antropologi"],
+      "rekomendasi_prodi_ptn": [
+        "Sastra Inggris", "Sastra Indonesia", "Sastra Jepang", "Sastra Arab",
+        "Hubungan Internasional", "Linguistik", "Pariwisata", "Ilmu Komunikasi",
+        "Pendidikan Bahasa Inggris", "Pendidikan Bahasa Indonesia", "Seni Teater"
+      ]
+    }
+  ],
+  "MA": [
+    {
+      "id": "MA-IPA",
+      "nama": "MIPA (Ilmu Alam)",
+      "alias": ["IPA MA", "MIPA"],
+      "rumpun": "Sains dan Teknologi",
+      "mata_pelajaran_pilihan": ["Matematika Lanjut", "Fisika", "Kimia", "Biologi"],
+      "rekomendasi_prodi_ptn": ["Kedokteran", "Teknik Informatika", "Farmasi", "Teknik Sipil", "Sains Data"]
+    },
+    {
+      "id": "MA-IPS",
+      "nama": "IPS (Ilmu Sosial)",
+      "alias": ["IPS MA", "IPS"],
+      "rumpun": "Sosial dan Humaniora",
+      "mata_pelajaran_pilihan": ["Sosiologi", "Ekonomi", "Geografi"],
+      "rekomendasi_prodi_ptn": ["Ilmu Hukum", "Manajemen", "Akuntansi", "Psikologi", "Komunikasi"]
+    },
+    {
+      "id": "MA-KEAGAMAAN",
+      "nama": "Ilmu-Ilmu Keagamaan (Keagamaan)",
+      "alias": ["Keagamaan", "Agama", "PK", "Program Keagamaan"],
+      "rumpun": "Studi Keislaman dan Hukum Islam",
+      "mata_pelajaran_pilihan": ["Ilmu Tafsir", "Ilmu Hadis", "Ushul Fikih", "Bahasa Arab Tingkat Lanjut"],
+      "rekomendasi_prodi_ptn": [
+        "Hukum Keluarga Islam (Ahwal Syakhshiyyah)", "Hukum Ekonomi Syariah", "Ilmu Al-Qur'an dan Tafsir",
+        "Komunikasi dan Penyiaran Islam", "Pendidikan Agama Islam", "Sastra Arab", "Bimbingan dan Konseling Islam"
+      ]
+    },
+    {
+      "id": "MA-BAHASA",
+      "nama": "Bahasa dan Budaya",
+      "alias": ["Bahasa MA"],
+      "rumpun": "Bahasa dan Sastra",
+      "mata_pelajaran_pilihan": ["Bahasa Arab Lanjut", "Bahasa Inggris Lanjut", "Sastra"],
+      "rekomendasi_prodi_ptn": ["Sastra Arab", "Sastra Inggris", "Pendidikan Bahasa", "Hubungan Internasional"]
+    }
+  ],
+  "SMK": [
+    {
+      "kode_bidang": "1",
+      "bidang_keahlian": "Teknologi Informasi",
+      "program_keahlian": [
+        {
+          "kode_program": "1.1",
+          "nama_program": "Pengembangan Perangkat Lunak dan Gim",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-RPL",
+              "nama": "Rekayasa Perangkat Lunak",
+              "alias": ["RPL", "Software Engineering", "Rekayasa Perangkat Lunak dan Gim"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Informatika", "Ilmu Komputer", "Sistem Informasi", "Rekayasa Perangkat Lunak", "Teknologi Informasi", "Sains Data"]
+            },
+            {
+              "id": "SMK-GIM",
+              "nama": "Pengembangan Gim",
+              "alias": ["Game Dev", "Game Development", "Teknologi Gim"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknologi Permainan (Game Tech)", "Teknik Informatika", "Desain Komunikasi Visual", "Animasi"]
+            }
+          ]
+        },
+        {
+          "kode_program": "1.2",
+          "nama_program": "Teknik Jaringan Komputer dan Telekomunikasi",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TKJ",
+              "nama": "Teknik Komputer dan Jaringan",
+              "alias": ["TKJ", "Network Engineering", "Teknik Jaringan"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Komputer", "Teknik Informatika", "Teknik Telekomunikasi", "Keamanan Siber (Cyber Security)", "Sistem Informasi"]
+            },
+            {
+              "id": "SMK-TJAT",
+              "nama": "Teknik Jaringan Akses Telekomunikasi",
+              "alias": ["TJAT", "Fiber Optik", "Akses Telekomunikasi"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Telekomunikasi", "Teknik Elektro", "Teknik Komputer"]
+            },
+            {
+              "id": "SMK-TTT",
+              "nama": "Teknik Transmisi Telekomunikasi",
+              "alias": ["Transmisi Telekomunikasi", "TTT", "Radio & Wireless"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Telekomunikasi", "Teknik Elektro"]
+            }
+          ]
+        },
+        {
+          "kode_program": "1.3",
+          "nama_program": "Sistem Informasi Jaringan dan Aplikasi",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-SIJA",
+              "nama": "Sistem Informasi, Jaringan, dan Aplikasi",
+              "alias": ["SIJA", "Cloud & DevOps", "SIJA 4 Tahun"],
+              "durasi_tahun": 4,
+              "rekomendasi_prodi_ptn": ["Sistem Informasi", "Teknik Informatika", "Teknologi Rekayasa Komputer", "Rekayasa Cloud"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "2",
+      "bidang_keahlian": "Bisnis dan Manajemen",
+      "program_keahlian": [
+        {
+          "kode_program": "2.1",
+          "nama_program": "Pemasaran",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-BD",
+              "nama": "Bisnis Digital",
+              "alias": ["Bisnis Digital", "Digital Marketing", "E-Commerce"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Bisnis Digital", "Manajemen", "Pemasaran Digital", "Ilmu Komunikasi", "Administrasi Bisnis"]
+            },
+            {
+              "id": "SMK-BR",
+              "nama": "Bisnis Ritel",
+              "alias": ["Bisnis Ritel", "Pemasaran", "Tata Niaga", "Retail"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Manajemen Pemasaran", "Administrasi Bisnis", "Manajemen Retail"]
+            }
+          ]
+        },
+        {
+          "kode_program": "2.2",
+          "nama_program": "Manajemen Perkantoran dan Layanan Bisnis",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-MP",
+              "nama": "Manajemen Perkantoran",
+              "alias": ["OTKP", "Otomatisasi dan Tata Kelola Perkantoran", "Administrasi Perkantoran", "Sekretaris"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Administrasi Perkantoran", "Manajemen", "Ilmu Komunikasi", "Administrasi Publik"]
+            },
+            {
+              "id": "SMK-LP",
+              "nama": "Layanan Perbankan",
+              "alias": ["Perbankan", "Perbankan Mikro", "Banking"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Perbankan", "Keuangan dan Perbankan", "Akuntansi", "Manajemen Keuangan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "2.3",
+          "nama_program": "Akuntansi dan Keuangan Lembaga",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-AKL",
+              "nama": "Akuntansi",
+              "alias": ["AKL", "Akuntansi dan Keuangan Lembaga", "Akuntansi Perpajakan"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Akuntansi", "Perpajakan", "Manajemen Keuangan", "Ekonomi Pembangunan"]
+            },
+            {
+              "id": "SMK-PKS",
+              "nama": "Perbankan Syariah",
+              "alias": ["Perbankan Syariah", "Bank Syariah"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Perbankan Syariah", "Ekonomi Syariah", "Akuntansi Syariah", "Hukum Ekonomi Syariah"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "3",
+      "bidang_keahlian": "Teknologi Manufaktur dan Rekayasa",
+      "program_keahlian": [
+        {
+          "kode_program": "3.1",
+          "nama_program": "Teknik Mesin",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TPM",
+              "nama": "Teknik Pemesinan",
+              "alias": ["Mesin Bubut", "Teknik Mesin", "Machining", "CNC"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Mesin", "Teknik Manufaktur", "Pendidikan Teknik Mesin", "Teknik Material"]
+            },
+            {
+              "id": "SMK-DGM",
+              "nama": "Desain Gambar Mesin",
+              "alias": ["Mechanical Drafting", "CAD Mesin", "Gambar Mesin"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Mesin", "Desain Produk", "Teknik Industri"]
+            },
+            {
+              "id": "SMK-TPL",
+              "nama": "Teknik Pengecoran Logam",
+              "alias": ["Pengecoran Logam", "Foundry Engineering"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Metalurgi dan Material", "Teknik Mesin"]
+            },
+            {
+              "id": "SMK-TMI",
+              "nama": "Teknik Mekanik Industri",
+              "alias": ["Mekanik Pabrik", "Industrial Maintenance"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Mesin", "Teknik Industri", "Mekatronika"]
+            }
+          ]
+        },
+        {
+          "kode_program": "3.2",
+          "nama_program": "Teknik Otomotif",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TKR",
+              "nama": "Teknik Kendaraan Ringan",
+              "alias": ["TKR", "Otomotif Mobil", "Teknik Kendaraan Ringan Otomotif"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Otomotif", "Teknik Mesin", "Pendidikan Teknik Otomotif", "Teknik Konversi Energi"]
+            },
+            {
+              "id": "SMK-TBSM",
+              "nama": "Teknik Bisnis Sepeda Motor",
+              "alias": ["TBSM", "TSM", "Otomotif Motor", "Sepeda Motor"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Otomotif", "Teknik Mesin", "Teknik Industri"]
+            },
+            {
+              "id": "SMK-TAB",
+              "nama": "Teknik Alat Berat",
+              "alias": ["TAB", "Alat Berat", "Heavy Equipment"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Mesin", "Teknik Pertambangan", "Teknik Otomotif"]
+            },
+            {
+              "id": "SMK-TBK",
+              "nama": "Teknik Bodi Kendaraan",
+              "alias": ["Bodi Otomotif", "Pengecatan Mobil", "Body Repair"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Mesin", "Desain Produk", "Teknik Material"]
+            },
+            {
+              "id": "SMK-TOT",
+              "nama": "Teknik Ototronik",
+              "alias": ["Ototronik", "Elektronika Otomotif"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Otomotif", "Teknik Elektro", "Mekatronika"]
+            }
+          ]
+        },
+        {
+          "kode_program": "3.3",
+          "nama_program": "Teknik Pengelasan dan Fabrikasi Logam",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-LAS",
+              "nama": "Teknik Pengelasan",
+              "alias": ["Welding", "Las Listrik / Argon", "SMAW / GTAW"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Mesin", "Teknik Metalurgi dan Material", "Teknik Perkapalan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "3.4",
+          "nama_program": "Teknik Elektronika",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TAV",
+              "nama": "Teknik Audio Video",
+              "alias": ["TAV", "Audio Video", "Elektronika Rumah Tangga"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Elektro", "Teknik Telekomunikasi", "Teknik Komputer"]
+            },
+            {
+              "id": "SMK-TEI",
+              "nama": "Teknik Elektronika Industri",
+              "alias": ["TEI", "PLC & Otomasi", "Elektronika Pabrik"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Elektro", "Teknik Mekatronika", "Teknik Otomasi Industri", "Teknik Fisika"]
+            },
+            {
+              "id": "SMK-MEKA",
+              "nama": "Teknik Mekatronika",
+              "alias": ["Mekatronika", "Robotika", "Robotics"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Mekatronika", "Teknik Robotika dan Kecerdasan Buatan", "Teknik Elektro", "Teknik Mesin"]
+            }
+          ]
+        },
+        {
+          "kode_program": "3.5",
+          "nama_program": "Teknik Pesawat Udara",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-AP",
+              "nama": "Airframe and Powerplant",
+              "alias": ["Teknik Penerbangan", "Airframe Powerplant", "Mesin Pesawat"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Penerbangan (Kedirgantaraan)", "Teknik Mesin", "Manajemen Penerbangan"]
+            },
+            {
+              "id": "SMK-AV",
+              "nama": "Electrical Avionics",
+              "alias": ["Avionik", "Kelistrikan Pesawat", "Aircraft Avionics"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Kedirgantaraan", "Teknik Elektro", "Teknik Telekomunikasi"]
+            }
+          ]
+        },
+        {
+          "kode_program": "3.6",
+          "nama_program": "Teknik Perkapalan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-KAPAL",
+              "nama": "Konstruksi Kapal Baja",
+              "alias": ["Teknik Perkapalan", "Desain Rancang Bangun Kapal", "Galangan Kapal"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Perkapalan", "Teknik Sistem Perkapalan", "Teknik Kelautan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "3.7",
+          "nama_program": "Teknik Grafika",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-GRAFIKA",
+              "nama": "Desain dan Produksi Grafika",
+              "alias": ["Percetakan", "Grafika", "Printing"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Desain Komunikasi Visual", "Teknologi Cetak Grafika", "Penerbitan"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "4",
+      "bidang_keahlian": "Seni dan Ekonomi Kreatif",
+      "program_keahlian": [
+        {
+          "kode_program": "4.1",
+          "nama_program": "Desain Komunikasi Visual",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-DKV",
+              "nama": "Desain Komunikasi Visual",
+              "alias": ["DKV", "Desain Grafis", "Multimedia", "Visual Communication"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Desain Komunikasi Visual", "Desain Produk", "Seni Rupa Murni", "Animasi", "Periklanan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "4.2",
+          "nama_program": "Animasi",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-ANIMASI",
+              "nama": "Animasi",
+              "alias": ["Animasi 2D", "Animasi 3D", "3D Modeling", "Animator"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Animasi", "Film dan Televisi", "Desain Komunikasi Visual", "Teknologi Permainan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "4.3",
+          "nama_program": "Broadcasting dan Perfilman",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-BC",
+              "nama": "Produksi dan Siaran Program Televisi",
+              "alias": ["Broadcasting", "Penyiaran Radio & TV", "Kamera & Editing"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Ilmu Komunikasi", "Jurnalistik", "Film dan Televisi", "Hubungan Masyarakat"]
+            },
+            {
+              "id": "SMK-FILM",
+              "nama": "Produksi Film",
+              "alias": ["Sinematografi", "Film Maker", "Perfilman"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Film dan Televisi", "Kajian Seni Sinema", "Ilmu Komunikasi"]
+            }
+          ]
+        },
+        {
+          "kode_program": "4.4",
+          "nama_program": "Desain dan Produksi Kriya",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-KRIYA-TEKSTIL",
+              "nama": "Kriya Kreatif Batik dan Tekstil",
+              "alias": ["Batik", "Tekstil", "Kriya Tekstil"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Kriya Seni", "Desain Mode / Fashion", "Pendidikan Seni Rupa"]
+            },
+            {
+              "id": "SMK-KRIYA-KAYU",
+              "nama": "Kriya Kreatif Kayu dan Rotan",
+              "alias": ["Ukir Kayu", "Kriya Kayu"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Kriya Seni", "Desain Produk", "Desain Interior"]
+            },
+            {
+              "id": "SMK-KRIYA-KERAMIK",
+              "nama": "Kriya Kreatif Keramik",
+              "alias": ["Gerabah", "Kriya Keramik", "Ceramic"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Kriya Seni", "Seni Rupa Murni", "Desain Produk"]
+            },
+            {
+              "id": "SMK-KRIYA-LOGAM",
+              "nama": "Kriya Kreatif Logam dan Perhiasan",
+              "alias": ["Perhiasan", "Kriya Logam", "Jewelry"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Kriya Seni", "Desain Produk"]
+            }
+          ]
+        },
+        {
+          "kode_program": "4.5",
+          "nama_program": "Seni Pertunjukan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-MUSIK",
+              "nama": "Seni Musik",
+              "alias": ["Musik Klasik", "Musik Pop", "Seni Musik"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Etnomusikologi", "Pendidikan Seni Musik", "Seni Musik Murni"]
+            },
+            {
+              "id": "SMK-TARI",
+              "nama": "Seni Tari",
+              "alias": ["Tari Tradisional", "Tari Kreasi"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Seni Tari", "Pendidikan Seni Tari", "Seni Pertunjukan"]
+            },
+            {
+              "id": "SMK-KARAWITAN",
+              "nama": "Seni Karawitan",
+              "alias": ["Gamelan", "Karawitan Tradisional"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Seni Karawitan", "Etnomusikologi", "Pendidikan Seni"]
+            },
+            {
+              "id": "SMK-TEATER",
+              "nama": "Seni Teater",
+              "alias": ["Pemeranan", "Drama", "Tata Artistik Teater"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Seni Teater", "Film dan Televisi", "Sastra Indonesia"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "5",
+      "bidang_keahlian": "Pariwisata",
+      "program_keahlian": [
+        {
+          "kode_program": "5.1",
+          "nama_program": "Kuliner",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TABA",
+              "nama": "Kuliner",
+              "alias": ["Tata Boga", "Boga", "Culinary", "Chef", "Pastry & Bakery"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Seni Kuliner", "Pendidikan Tata Boga", "Pengelolaan Perhotelan", "Manajemen Pariwisata", "Ilmu Gizi"]
+            }
+          ]
+        },
+        {
+          "kode_program": "5.2",
+          "nama_program": "Perhotelan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-HOTEL",
+              "nama": "Perhotelan",
+              "alias": ["Akomodasi Perhotelan", "Hospitality", "Hotel"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Pengelolaan Perhotelan", "Manajemen Pariwisata", "Destinasi Pariwisata", "Bahasa Asing"]
+            }
+          ]
+        },
+        {
+          "kode_program": "5.3",
+          "nama_program": "Usaha Layanan Pariwisata",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-UPW",
+              "nama": "Usaha Layanan Pariwisata",
+              "alias": ["UPW", "Usaha Perjalanan Wisata", "Tour & Travel", "Tour Guide"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Manajemen Pariwisata", "Destinasi Pariwisata", "Hubungan Masyarakat", "Manajemen Konvensi dan Acara (MICE)"]
+            }
+          ]
+        },
+        {
+          "kode_program": "5.4",
+          "nama_program": "Kecantikan dan Spa",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-CANTIK",
+              "nama": "Tata Kecantikan Kulit dan Rambut",
+              "alias": ["Tata Kecantikan", "Beauty Therapy", "Make Up Artist", "Tata Rias"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Pendidikan Tata Rias", "Tata Kecantikan", "Kesehatan Masyarakat"]
+            },
+            {
+              "id": "SMK-SPA",
+              "nama": "Spa dan Beauty Therapy",
+              "alias": ["Spa Therapist", "Perawatan Tubuh"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Fisioterapi", "Tata Kecantikan", "Manajemen Perhotelan"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "6",
+      "bidang_keahlian": "Kesehatan dan Pekerjaan Sosial",
+      "program_keahlian": [
+        {
+          "kode_program": "6.1",
+          "nama_program": "Layanan Kesehatan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-PERAWAT",
+              "nama": "Asisten Keperawatan dan Caregiver",
+              "alias": ["Keperawatan", "Asisten Perawat", "Caregiver"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Ilmu Keperawatan", "Kebidanan", "Fisioterapi", "Kesehatan Masyarakat", "Kesehatan Lingkungan"]
+            },
+            {
+              "id": "SMK-DENTAL",
+              "nama": "Asisten Dental",
+              "alias": ["Keperawatan Gigi", "Dental Assistant"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Terapis Gigi dan Mulut", "Kesehatan Gigi", "Kedokteran Gigi"]
+            }
+          ]
+        },
+        {
+          "kode_program": "6.2",
+          "nama_program": "Farmasi",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-FARMASI-KLINIS",
+              "nama": "Farmasi Klinis dan Komunitas",
+              "alias": ["Farmasi", "Asisten Apoteker", "Apotek"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Farmasi", "Kimia", "Analis Farmasi dan Makanan", "Biologi", "Kedokteran"]
+            },
+            {
+              "id": "SMK-FARMASI-IND",
+              "nama": "Farmasi Industri",
+              "alias": ["Produksi Obat", "Industri Farmasi"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Farmasi", "Teknik Kimia", "Teknologi Industri Pertanian"]
+            }
+          ]
+        },
+        {
+          "kode_program": "6.3",
+          "nama_program": "Teknologi Laboratorium Medik",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TLM",
+              "nama": "Teknologi Laboratorium Medik",
+              "alias": ["TLM", "Analis Kesehatan", "Laboratorium Medis"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknologi Laboratorium Medis", "Biomedis", "Kimia", "Biologi", "Kesehatan Masyarakat"]
+            }
+          ]
+        },
+        {
+          "kode_program": "6.4",
+          "nama_program": "Pekerjaan Sosial",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-PEKSOS",
+              "nama": "Pekerjaan Sosial",
+              "alias": ["Social Work", "Peksos", "Pelayanan Sosial"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Ilmu Kesejahteraan Sosial", "Sosiologi", "Bimbingan dan Konseling", "Psikologi"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "7",
+      "bidang_keahlian": "Teknologi Konstruksi dan Bangunan",
+      "program_keahlian": [
+        {
+          "kode_program": "7.1",
+          "nama_program": "Desain Pemodelan dan Informasi Bangunan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-DPIB",
+              "nama": "Desain Pemodelan dan Informasi Bangunan",
+              "alias": ["DPIB", "Gambar Bangunan", "Arsitektur Bangunan", "Drafting CAD / BIM"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Arsitektur", "Teknik Sipil", "Desain Interior", "Perencanaan Wilayah dan Kota"]
+            }
+          ]
+        },
+        {
+          "kode_program": "7.2",
+          "nama_program": "Teknik Konstruksi dan Perumahan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TKP",
+              "nama": "Teknik Konstruksi dan Perumahan",
+              "alias": ["TKP", "Konstruksi Kayu/Batu/Beton", "Konstruksi Gedung"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Sipil", "Manajemen Konstruksi", "Pendidikan Teknik Bangunan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "7.3",
+          "nama_program": "Konstruksi dan Perawatan Bangunan Sipil",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-SIPIL",
+              "nama": "Konstruksi Jalan, Irigasi, dan Jembatan",
+              "alias": ["Jalan & Jembatan", "Teknik Sipil Basah", "Irigasi"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Sipil", "Teknik Pengairan / Sumber Daya Air", "Teknik Lingkungan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "7.4",
+          "nama_program": "Teknik Furnitur",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-FURNITUR",
+              "nama": "Desain dan Produksi Furnitur",
+              "alias": ["Furnitur", "Mebel", "Interior Furnitur"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Desain Interior", "Desain Produk", "Kriya Seni"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "8",
+      "bidang_keahlian": "Agribisnis dan Agriteknologi",
+      "program_keahlian": [
+        {
+          "kode_program": "8.1",
+          "nama_program": "Agribisnis Tanaman",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-ATPH",
+              "nama": "Agribisnis Tanaman Pangan dan Hortikultura",
+              "alias": ["ATPH", "Pertanian Pangan", "Sayur & Buah", "Hortikultura"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Agroteknologi", "Agronomi", "Agribisnis", "Ilmu Tanah", "Proteksi Tanaman"]
+            },
+            {
+              "id": "SMK-ATP",
+              "nama": "Agribisnis Tanaman Perkebunan",
+              "alias": ["ATP", "Kelapa Sawit", "Karet", "Kopi", "Kakao"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknologi Pengelolaan Perkebunan", "Agroteknologi", "Agribisnis"]
+            }
+          ]
+        },
+        {
+          "kode_program": "8.2",
+          "nama_program": "Agribisnis Ternak",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-ATR",
+              "nama": "Agribisnis Ternak Ruminansia",
+              "alias": ["ATR", "Ternak Sapi", "Kambing & Domba", "Ruminansia"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Peternakan", "Ilmu Nutrisi dan Teknologi Pakan", "Kedokteran Hewan"]
+            },
+            {
+              "id": "SMK-ATU",
+              "nama": "Agribisnis Ternak Unggas",
+              "alias": ["ATU", "Ternak Ayam", "Unggas", "Broiler / Layer"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Peternakan", "Teknologi Hasil Peternakan", "Agribisnis"]
+            },
+            {
+              "id": "SMK-KESWAN",
+              "nama": "Kesehatan Hewan",
+              "alias": ["Paramedik Veteriner", "Kesehatan Ternak", "Perawat Hewan"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Kedokteran Hewan", "Peternakan", "Kesehatan Hewan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "8.3",
+          "nama_program": "Agribisnis Perikanan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-IKAN",
+              "nama": "Agribisnis Perikanan Air Tawar, Payau, dan Laut",
+              "alias": ["Budidaya Ikan", "Akuakultur", "Tambak Udang", "Perikanan"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Akuakultur / Budidaya Perairan", "Ilmu Kelautan", "Pemanfaatan Sumberdaya Perikanan", "Teknologi Hasil Perikanan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "8.4",
+          "nama_program": "Agriteknologi Pengolahan Hasil Pertanian",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-APHP",
+              "nama": "Agribisnis Pengolahan Hasil Pertanian",
+              "alias": ["APHP", "Teknologi Pangan", "Pengolahan Makanan / Hasil Bumi"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknologi Pangan", "Teknologi Industri Pertanian (TIP)", "Ilmu dan Teknologi Pangan", "Ilmu Gizi"]
+            }
+          ]
+        },
+        {
+          "kode_program": "8.5",
+          "nama_program": "Kehutanan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-HUTAN",
+              "nama": "Konservasi dan Pengelolaan Hutan",
+              "alias": ["Kehutanan", "Rimbawan", "Konservasi Hutan"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Kehutanan", "Konservasi Sumberdaya Hutan dan Ekowisata", "Teknologi Hasil Hutan"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "9",
+      "bidang_keahlian": "Kemaritiman",
+      "program_keahlian": [
+        {
+          "kode_program": "9.1",
+          "nama_program": "Pelayaran Kapal Niaga",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-NKN",
+              "nama": "Nautika Kapal Niaga",
+              "alias": ["NKN", "Pelayaran Niaga", "Nahkoda", "Deck Officer"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Nautika", "Manajemen Transportasi Laut", "Teknik Kelautan"]
+            },
+            {
+              "id": "SMK-TKN",
+              "nama": "Teknika Kapal Niaga",
+              "alias": ["TKN", "Mesin Kapal Niaga", "Engineer Kapal"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknika", "Teknik Sistem Perkapalan", "Teknik Mesin"]
+            }
+          ]
+        },
+        {
+          "kode_program": "9.2",
+          "nama_program": "Pelayaran Kapal Penangkap Ikan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-NKPI",
+              "nama": "Nautika Kapal Penangkap Ikan",
+              "alias": ["NKPI", "Kapal Ikan", "Navigasi Nelayan"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Pemanfaatan Sumberdaya Perikanan", "Nautika Perikanan Laut"]
+            },
+            {
+              "id": "SMK-TKPI",
+              "nama": "Teknika Kapal Penangkap Ikan",
+              "alias": ["TKPI", "Mesin Kapal Ikan"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Sistem Perkapalan", "Permesinan Perikanan"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kode_bidang": "10",
+      "bidang_keahlian": "Energi dan Pertambangan",
+      "program_keahlian": [
+        {
+          "kode_program": "10.1",
+          "nama_program": "Teknik Ketenagalistrikan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TITL",
+              "nama": "Teknik Instalasi Tenaga Listrik",
+              "alias": ["TITL", "Listrik Bangunan", "Listrik Industri", "Instalasi Listrik"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Elektro", "Teknik Tenaga Listrik", "Teknik Sistem Energi", "Pendidikan Teknik Elektro"]
+            },
+            {
+              "id": "SMK-PL",
+              "nama": "Teknik Pembangkit Tenaga Listrik",
+              "alias": ["Pembangkit Listrik", "PLTU / PLTA / PLTN"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Konversi Energi", "Teknik Elektro", "Teknik Mesin"]
+            }
+          ]
+        },
+        {
+          "kode_program": "10.2",
+          "nama_program": "Teknik Energi Terbarukan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-EBT",
+              "nama": "Teknik Energi Surya, Hidro, dan Angin",
+              "alias": ["Energi Terbarukan", "Panel Surya / Solar Cell", "EBT"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Energi Terbarukan", "Teknik Fisika", "Teknik Elektro", "Teknik Konversi Energi"]
+            }
+          ]
+        },
+        {
+          "kode_program": "10.3",
+          "nama_program": "Teknik Geologi Pertambangan",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-TAMBANG",
+              "nama": "Geologi Pertambangan",
+              "alias": ["Tambang", "Geologi", "Eksplorasi Mineral"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Pertambangan", "Teknik Geologi", "Teknik Geofisika", "Teknik Perminyakan"]
+            }
+          ]
+        },
+        {
+          "kode_program": "10.4",
+          "nama_program": "Teknik Minyak dan Gas Bumi",
+          "konsentrasi_keahlian": [
+            {
+              "id": "SMK-MIGAS",
+              "nama": "Teknik Produksi Minyak dan Gas Bumi",
+              "alias": ["Migas", "Pemboran Minyak", "Kilang Minyak"],
+              "durasi_tahun": 3,
+              "rekomendasi_prodi_ptn": ["Teknik Perminyakan", "Teknik Kimia", "Teknik Pengolahan Sawit dan Mineral"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
